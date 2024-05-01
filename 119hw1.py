@@ -1,4 +1,3 @@
-# import libraries 
 import pandas as pd
 import matplotlib.pyplot as plt
 import matplotlib.dates as mdates 
@@ -43,7 +42,6 @@ plt.xlabel('Hour')
 plt.ylabel('AC System Output (W)')
 plt.xticks(case1h['Hour'])
 
-# Show the plot
 plt.grid(True)
 plt.legend()
 #plt.tight_layout()
